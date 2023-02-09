@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        >
+
+        <TextView
+            android:id="@+id/LoginText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inscrivez-vous"
+            android:textAlignment="center"
+            android:textColor="@color/purple"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="8dp"
+        android:hint="ID utilisateur"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_person_pin_24"
+        android:drawablePadding="8dp"
+        android:hint="Nom/Prénom"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="8dp"
+        android:hint="e-mail"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black" />
+    <EditText
+        android:id="@+id/adresse"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_location_on_24"
+        android:drawablePadding="8dp"
+        android:hint="adresse"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/password"
+        android:background="@drawable/custom_edittext"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:hint="Mot de Passe"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:layout_marginTop="40dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/loginButton"
+        android:text="Connexion"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/purple" />
+
+
+
+
+</LinearLayout>

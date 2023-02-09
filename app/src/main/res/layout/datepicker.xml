@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Date"
+        android:textAlignment="textEnd"/>
+
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="515dp"
+        android:layout_marginTop="40dp"
+        android:datePickerMode="calendar"
+        android:backgroundTint="@color/purple"
+        android:padding="40dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btPickDate"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_below="@+id/tvDate"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="20dp"
+        android:text="Choisissez une date de rendez-vous"
+        android:textAlignment="center"
+        android:backgroundTint="@color/purple"/>
+
+</RelativeLayout>
